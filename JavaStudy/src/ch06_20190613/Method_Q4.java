@@ -20,10 +20,25 @@ public class Method_Q4 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-
+		if(s.equals("t")) {
+			
+		
+//		a.equals("t");
+		
 		String a = d(s.nextBoolean(), s.nextBoolean());
 		
 		System.out.println(a);
+		
 		s.close();
+		}else if(s.equals("f")) {
+
+			String a = d(s.nextBoolean(), s.nextBoolean());
+			
+			System.out.println(a);
+			s.close();
+		}else {
+			System.out.println("t 와 f 중 입력해 주세요.");
+		}
+		
 	}
 }
