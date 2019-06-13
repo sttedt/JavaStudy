@@ -29,8 +29,6 @@ public class Exam99999_2 {
 		} else {
 			System.out.println("0~2 숫자를 넣어주세요");
 
-		}
-
-		scan.close();
+		}scan.close();
 	}
 }

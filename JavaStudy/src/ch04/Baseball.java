@@ -22,7 +22,7 @@ public class Baseball {
 		int inputNumber3 = s.nextInt();
 		System.out.print(inputNumber1);
 		System.out.print(inputNumber2);
-		System.out.print(inputNumber3);
+		System.out.println(inputNumber3);
 
 		int strike = 0; // 스트라이크를 개수를 저장할 변수
 		int ball = 0; // 볼의 개수를 저장할 변수
@@ -49,6 +49,9 @@ public class Baseball {
 		}
 		System.out.println("스트라이크 => " + strike);
 		System.out.println("볼 => " + ball);
+		System.out.println("아웃 => " + out);
+		
+		s.close();
 	}
 }
 
