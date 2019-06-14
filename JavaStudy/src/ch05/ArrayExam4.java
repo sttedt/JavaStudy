@@ -3,7 +3,7 @@ package ch05;
 public class ArrayExam4 {
 	public static void main(String[] args) {
 		
-		char[] chars = { 'b', 'e', 'z', 'a', 'w' };
+		char[] chars = { 'b', 'e', 'z', 'a', 'w' , 'A' };
 		char temp = ' ';
 		
 		for (int i = 0; i < chars.length - 1; i++) {
