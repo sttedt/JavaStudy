@@ -18,5 +18,10 @@ public class Exam5_2_01 {
 		}
 		System.out.println("Че : " + sum);
 		System.out.println("ЦђБе : " + avg);
+		
+		
+		
+		
+		
 	}
 }
