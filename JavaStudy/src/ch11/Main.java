@@ -8,6 +8,5 @@ public class Main {
 		A a = new A();
 		a.method();
 		B b = new B();
-		
 	}
 }
